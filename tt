@@ -1,87 +1,54 @@
 {
-    "WBUI2":
-    {
-        "settings":
-        {
-            "openbutton": 1,
-            "hideicon": true,
-            "hideiconafter": 10,
+    "WBUI2": {
+        "settings": {
+            "openbutton": 0,
+            "hideicon": false,
+            "hideiconafter": 60,
             "iconurl": "https://i.imgur.com/OZ6xOjY.png",
             "disableicontext": false,
             "iconposition": 0,
             "icontextcolor": 0,
             "openonstart": true,
             "openonstartonlynewplayers": true,
-            "updateinterval": 24
+            "updateinterval": 12
         },
         "tabs": [
             {
                 "layout": 1,
-                "buttontext": "<RichColor Color=\"1,0,0,1\">1 Box layout</>",
+                "buttontext": "Willkommen",
                 "imageurl": "https://i.imgur.com/mGt3cAF.png",
                 "content": [
                     {
-                        "title": "Welcome to WBUI2!",
-                        "text": "Your text could be here.\n\nBTW, you can add as many tabs/links as you want, just follow the syntax... Until it doesnt fit anymore\n\nCheckout the available predefined colors and the syntax for a colorized and bigger letters for the general text:\n\n<TextStyle.LightBlue><TextStyle.LightBlue>LightBlue Text</></>\n<TextStyle.Red><TextStyle.Red>Red Text</></>\n<TextStyle.Green><TextStyle.Green>Green Text</></>\n<TextStyle.Blue><TextStyle.Blue>Blue Text</></>\n<TextStyle.Yellow><TextStyle.Yellow>Yellow Text</></>\n<TextStyle.Orange><TextStyle.Orange>Orange Text</></>\n<TextStyle.Violet><TextStyle.Violet>Violet Text</></>\n<TextStyle.White><TextStyle.White>White Text</></>\n<TextStyle.Black><TextStyle.Black>Black Text</></> < Yes its Black Text on a Black background\n\nYou can use the ARKML syntax to colorize the titles, normal text and button texts. ARKML uses RGBA values to define the colors. Here are some examples:\n\n<RichColor Color=\"1,0,0,1\"><RichColor Color=\"1,0,0,1\">Red Text</></>\n<RichColor Color=\"0,1,0,1\"><RichColor Color=\"0,1,0,1\">Green Text</></>\n\nPlease keep in mind that you <TextStyle.Red>NEED TO</> unescape the doublequotes with a backslash!!!"
+                        "title": "Thanks for installing WBUI2!",
+                        "text1": "PvE-Regeln Unser Server ist ein PvE-Server. Das bedeutet",
+                        "text2": "dass keine Gebäude, Strukturen oder Gegenstände anderer Spieler beschädigt oder gestohlen werden dürfen.",
+                        "text3": "Bei einem Verstoß gegen diese Regel werden drei Tiere des verantwortlichen Spielers oder Tribes hingerichtet.",
+                        "text4": "Bei wiederholtem Verstoß folgt ein permanenter Bann für den betroffenen Spieler oder den gesamten Tribe.",
+                        "title2": "Allgemeine Regeln",
+                        "text5": "Bauverbot in Ressourcengebieten:",
+                        "text6": "Große Ressourcengebiete, wie z. B. Höhlen, dürfen nicht zugebaut werden. Dies gewährleistet,",
+                        "text7": "dass alle Spieler fair Zugang zu wichtigen Ressourcen haben.",
+                        "title3": "Respektvoller Umgang im Chat:",
+                        "text8": "Im Chat erwarten wir ein höfliches und respektvolles Verhalten. Beleidigungen,",
+                        "text9": "Mobbing oder ähnliches werden nicht toleriert, da auch Kinder auf unserem Server spielen.",
+                        "text10": "Bei Nichteinhaltung erfolgt ein sofortiger Ausschluss vom Server in Form eines Banns.",
+                        "title4": "Spenderpakete:",
+                        "text11": "Informationen zu Spenderpaketen finden Sie in unserem Discord-Server. Schauen Sie gerne vorbei,",
+                        "text12": "um weitere Details zu erhalten."
                     }
                 ]
             },
             {
                 "layout": 2,
-                "buttontext": "2 Box layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "Left title",
-                        "text": "This text goes into the left box"
-                    },
-                    {
-                        "title": "Right title",
-                        "text": "This text goes into the right box"
-                    }
-                ]
-            },
-            {
-                "layout": 3,
-                "buttontext": "3 Box layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "Left title",
-                        "text": "This text goes into the left box"
-                    },
-                    {
-                        "title": "Top right title",
-                        "text": "This text goes into the top right box"
-                    },
-                    {
-                        "title": "Bottom right title",
-                        "text": "This text goes into the bottom right box"
-                    }
-                ]
-            },
-            {
-                "layout": 4,
-                "buttontext": "4 Box layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "Top left title",
-                        "text": "<TextStyle.Orange>This text goes into the top left box</>"
-                    },
-                    {
-                        "title": "<TextStyle.Green>Top right title</>",
-                        "text": "<TextStyle.Violet>This text goes into the top right box</>"
-                    },
-                    {
-                        "title": "<TextStyle.Blue>Bottom left title</>",
-                        "text": "<TextStyle.Red>This text goes into the bottom left box</>"
-                    },
-                    {
-                        "title": "<TextStyle.Yellow>Bottom right title</>",
-                        "text": "<TextStyle.White>This text goes into the bottom right box</>"
-                    }
-                ]
+                "buttontext": "Server-Settings",
+                "text13": "XP Multiplier: 2",
+                "text14": "Item Stack Size Multiplier : 100",
+                "text15": "Creature Taming Speed Multiplier: 5",
+                "text16": "Maximum Platform Structures Multiplier: 100",
+                "text17": "Player Food Drain Multiplier: 0,8",
+                "text18": "Player Water Drain Multiplier: 0,8",
+                "text19": "Harvest Amount Multiplier: 5",
+                "content": []
             }
         ],
         "links": [
